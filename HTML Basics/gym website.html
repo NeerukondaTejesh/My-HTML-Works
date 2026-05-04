@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Fitness Training & Diet Plans</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #4b709b; /* Bluish white background */
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #0d3b66;
+      color: rgb(230, 235, 235);
+      text-align: center;
+      padding: 1rem 0;
+    }
+
+    h1 {
+      margin: 0;
+    }
+
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      padding: 2rem;
+    }
+
+    .plan-section {
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+      margin: 1rem;
+      padding: 1.5rem;
+      width: 400px;
+      transition: transform 0.3s;
+    }
+
+    .plan-section:hover {
+      transform: scale(1.03);
+    }
+
+    h2 {
+      color: #0d3b66;
+      border-bottom: 2px solid #ccc;
+      padding-bottom: 0.5rem;
+    }
+
+    ul {
+      list-style-type: square;
+      padding-left: 1.2rem;
+    }
+
+    footer {
+      text-align: center;
+      background: #0d3b66;
+      color: white;
+      padding: 1rem;
+      margin-top: 2rem;
+    }
+
+    @media (max-width: 768px) {
+      .container {
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .plan-section {
+        width: 90%;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Fitness & Diet Plans</h1>
+    <p>Custom Training and Diet Plans for Teenagers and Adults</p>
+  </header>
+
+  <div class="container">
+
+    <!-- Teenager Training Plan -->
+    <div class="plan-section">
+      <h2>Teenager Training Plan</h2>
+      <ul>
+        <li>Warm-up: 10 mins jogging/skipping</li>
+        <li>Bodyweight exercises: Push-ups, Squats, Planks</li>
+        <li>Cardio: 15-20 mins cycling or running</li>
+        <li>Cool down: Stretching & deep breathing</li>
+        <li>3-5 sessions per week</li>
+      </ul>
+    </div>
+
+    <!-- Teenager Diet Plan -->
+    <div class="plan-section">
+      <h2>Teenager Diet Plan</h2>
+      <ul>
+        <li>High protein: Eggs, milk, lean meats</li>
+        <li>Whole grains: Brown rice, oats, wheat</li>
+        <li>Fruits & veggies daily</li>
+        <li>Hydration: At least 2L water/day</li>
+        <li>Avoid: Junk food, sugary sodas</li>
+      </ul>
+    </div>
+
+    <!-- Adult Training Plan -->
+    <div class="plan-section">
+      <h2>Adult Training Plan</h2>
+      <ul>
+        <li>Weight training: 4–5 days/week</li>
+        <li>Cardio: 20–30 mins brisk walk/jog</li>
+        <li>Strength: Deadlifts, Bench Press, Squats</li>
+        <li>Stretching & Yoga weekly</li>
+        <li>Rest & recovery: 1–2 days/week</li>
+      </ul>
+    </div>
+
+    <!-- Adult Diet Plan -->
+    <div class="plan-section">
+      <h2>Adult Diet Plan</h2>
+      <ul>
+        <li>Protein-rich meals (chicken, tofu, lentils)</li>
+        <li>Complex carbs: Brown rice, quinoa, sweet potatoes</li>
+        <li>Healthy fats: Nuts, seeds, olive oil</li>
+        <li>Plenty of fiber & water</li>
+        <li>Limit sugar, alcohol, processed foods</li>
+      </ul>
+    </div>
+
+  </div>
+
+  <footer>
+    &copy; 2025 FitLife
+  </footer>
+
+</body>
+</html>
